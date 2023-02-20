@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projet de pratique de développement mobile</string>
+    <string name="calendar_planner_button_text">Calendrier</string>
+    <string name="food_list_button_text">Aliments</string>
+    <string name="motivation_button_text">Le bouton de motivation</string>
+    <string name="home_button_text">Accueil</string>
+    <string name="food_list_heading">Liste des aliments</string>
+    <string name="welcome_message">Bienvenue sur l\'application Planificateur de repas!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+
+    <string name="cancel_button_text">Annuler</string>
+    <string name="save_button_text">Sauver</string>
+    <string name="food_name_label">Aliments</string>
+    <string name="food_name_hint">Entrez le nom du plat.</string>
+    <string name="food_ingredients_label">Ingrédients</string>
+    <string name="food_ingredients_hint">Listez les ingrédients.</string>
+    <string name="food_recipe_label">Recette</string>
+    <string name="food_recipe_hint">Lister les consignes.</string>
+    <string name="food_calories_label">Calories</string>
+    <string name="food_type_label">Le Type</string>
+
+</resources>

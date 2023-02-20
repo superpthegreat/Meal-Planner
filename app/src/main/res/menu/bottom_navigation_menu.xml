@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/calendar_planner"
+        android:title="@string/calendar_planner_button_text"
+        android:icon="@drawable/ic_baseline_calendar"
+        />
+    <item
+        android:id="@+id/home"
+        android:title="@string/home_button_text"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item
+        android:id="@+id/food_list"
+        android:title="@string/food_list_button_text"
+        android:icon="@drawable/ic_baseline_foodlist"
+        />
+</menu>

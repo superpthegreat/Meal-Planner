@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proyecto de práctica de desarrollo móvil</string>
+    <string name="calendar_planner_button_text">Calendario</string>
+    <string name="food_list_button_text">Alimento</string>
+    <string name="motivation_button_text">El botón de motivación</string>
+    <string name="home_button_text">Inicio</string>
+    <string name="food_list_heading">lista de alimentos</string>
+    <string name="welcome_message">¡Bienvenido a la aplicación planificador de comidas!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+
+    <string name="cancel_button_text">Cancelar</string>
+    <string name="save_button_text">Ahorrar</string>
+    <string name="food_name_label">Alimento</string>
+    <string name="food_name_hint">Introduce el nombre del plato.</string>
+    <string name="food_ingredients_label">Ingredientes</string>
+    <string name="food_ingredients_hint">Haz una lista de los ingredientes.</string>
+    <string name="food_recipe_label">Receta</string>
+    <string name="food_recipe_hint">Enumere las instrucciones.</string>
+    <string name="food_calories_label">Calorías</string>
+    <string name="food_type_label">Los Tipos</string>
+
+</resources>

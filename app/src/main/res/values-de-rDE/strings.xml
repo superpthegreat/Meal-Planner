@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Praxisprojekt für mobile Entwickler</string>
+    <string name="calendar_planner_button_text">Kalender</string>
+    <string name="food_list_button_text">Essen</string>
+    <string name="motivation_button_text">Die Motivationsschaltfläche</string>
+    <string name="home_button_text">Startseite</string>
+    <string name="food_list_heading">Lebensmittelliste</string>
+    <string name="welcome_message">Willkommen bei der Essensplaner-App!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+
+    <string name="cancel_button_text">Abbrechen</string>
+    <string name="save_button_text">Speichern</string>
+    <string name="food_name_label">Essen</string>
+    <string name="food_name_hint">Geben Sie den Namen des Gerichts ein.</string>
+    <string name="food_ingredients_label">Zutaten</string>
+    <string name="food_ingredients_hint">Listen Sie die Zutaten auf.</string>
+    <string name="food_recipe_label">Rezept</string>
+    <string name="food_recipe_hint">Liste die Anweisungen auf.</string>
+    <string name="food_calories_label">Kalorien</string>
+    <string name="food_type_label">Der Typ</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cpsc411a.android.mobiledevpracticeproject">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MobileDevPracticeProjectApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/burger"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/burger"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileDevPracticeProject"
+        android:windowSoftInputMode="adjustPan"
+        tools:targetApi="31">
+        <activity android:name="com.cpsc411a.android.mobiledevpracticeproject.FoodActivity">
+        </activity>
+        <activity
+            android:name=".motivation.MotivationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cpsc411a.android.mobiledevpracticeproject.CalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cpsc411a.android.mobiledevpracticeproject.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name=".motivation.VideoProvider"
+            android:authorities="com.cpsc411a.android.mobiledevpracticeproject.motivation"
+            android:exported="true"
+            android:grantUriPermissions="true" />
+    </application>
+
+</manifest>
